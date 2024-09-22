@@ -165,7 +165,7 @@ useGSAP(()=>{
    
 
    <div className=" p-10 w-96 max-md:w-11/12 max-md:p-0  justify-start items-end flex  flex-col  ">
-    <Image className='rounded-2xl scrubby-img w-full max-md:w-full h-full max-md:h-fit max-lg:h-3/4] ' src={jay} 
+    <Image className='rounded-2xl scrubby-img w-full max-md:w-full h-full max-md:h-fit max-lg:h-3/4] ' src={jay} priority='true'
     style={{objectFit: "cover", objectPosition:"top"}}
 ></Image>
   </div>

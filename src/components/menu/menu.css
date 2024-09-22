@@ -126,7 +126,7 @@
   cursor: pointer;
   font-weight: 600;
   -webkit-text-stroke: #0f1215;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   width: fit-content;
   font-size: 25px;
 
@@ -222,10 +222,10 @@
     padding: 1em;
   }
   .menu-open p , .menu-bar a ,.menu-close p{
-    font-size: 15px;
+    font-size: 25px;
   }
   .menu-info a , .menu-info p{
-    font-size: 3.5vw;
+    font-size: 4vw;
     margin: 5px;
   }
   .menu-links a{

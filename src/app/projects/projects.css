@@ -358,7 +358,9 @@ button:hover svg {
 }
 .griditem-small{
   /* grid-column: span 1; */
-  font-size:3vw;
+  font-size:3.5vw;
+  letter-spacing: -0.02em;
+  line-height: 1.3em;
 }
 
 }
@@ -366,7 +368,7 @@ button:hover svg {
   
   .griditem-small{
     /* grid-column: span 1; */
-    font-size:3.5vw;
+    font-size:4vw;
    
   }
 

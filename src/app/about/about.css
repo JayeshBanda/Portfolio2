@@ -311,16 +311,21 @@ article span{
     }
 
     .abt-section2 h1{
-        font-size: 9vw;
+        font-size: 10vw;
     }
     .passion1 span{
-        font-size: 3.5vw;
+        font-size: 4vw;
+        /* letter-spacing:em; */
+        line-height: 1.4em;
+
     }
     .passion-main h2{
         font-size: 8vw;
     }
     .grid-item{
         font-size: 3.5vw;
+      
+
     }
     .skill-main{
         height: 50%;
@@ -332,7 +337,9 @@ article span{
         grid-auto-rows: auto;
     }
     .exp-grid span{
-        font-size: 3.5vw;
+        font-size: 4vw;
+        letter-spacing: -0.01em;
+        line-height: 1.5em;
     }
     .exp-grid h2{
         font-size: 7vw;

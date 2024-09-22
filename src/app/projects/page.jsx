@@ -115,6 +115,7 @@ const projects = () => {
               <div className="griditem  "><h1>PromptZone</h1></div>
               <div className="griditem-big h-full w-full">
                 <Image
+                priority='true'
                   src={promptzone}
                   className='w-full h-full rounded-2xl'
                   style={{
@@ -125,6 +126,7 @@ const projects = () => {
               </div>
               <div className="griditem-med">
                 <Image
+                priority='true'
                   src={promptzone1}
                   style={{
                     objectFit: 'cover',
@@ -181,6 +183,7 @@ const projects = () => {
               <div className="griditem"><h1>BudgetBuster</h1></div>
               <div className="griditem-big h-full w-full">
                 <Image
+                priority='true'
                   src={budget}
                   className='w-full h-full rounded-2xl'
                   style={{
@@ -191,6 +194,7 @@ const projects = () => {
               </div>
               <div className="griditem-med">
                 <Image
+                priority='true'
                   src={budget1}
                   style={{
                     objectFit: 'cover',
@@ -247,6 +251,7 @@ const projects = () => {
               <div className="griditem"><h1>J-Store</h1></div>
               <div className="griditem-big">
                 <Image
+                priority='true'
                   src={jstore}
                   className='w-full h-full rounded-2xl'
                   style={{
@@ -257,6 +262,7 @@ const projects = () => {
               </div>
               <div className="griditem-med">
                 <Image
+                priority='true'
                   src={jstore1}
                   style={{
                     objectFit: 'cover',
@@ -314,6 +320,7 @@ const projects = () => {
               <div className="griditem"><h1>E-learn</h1></div>
               <div className="griditem-big">
                 <Image
+                priority='true'
                   src={elearn}
                   className='w-full h-full rounded-2xl'
                   style={{
@@ -324,6 +331,7 @@ const projects = () => {
               </div>
               <div className="griditem-med">
                 <Image
+                priority='true'
                   src={elearn1}
                   style={{
                     objectFit: 'cover',

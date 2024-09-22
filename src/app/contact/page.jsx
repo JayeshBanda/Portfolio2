@@ -166,7 +166,7 @@ const Contact = () => {
   return (
     <div className="contact bg-white w-full h-fit">
       <div className="contact-info w-full h-full flex flex-col p-10 max-md:p-5 justify-center items-start">
-        <h1 className="contact-title pt-40">Liked what you saw?</h1>
+        <h1 className="contact-title pt-40">It's time to Evolve</h1>
         <h2 className="contact-subtitle">Let's create something amazing, together.</h2>
         <div className="line-hero1 w-full" />
         <div className="contact-main w-full h-full grid grid-cols-2 justify-items-center p-5 max-sm:grid-cols-none max-md:grid-rows-2">
@@ -202,7 +202,7 @@ const Contact = () => {
               </span>
             </div>
             <div className="links flex flex-col text-start h-full w-full  items-start p-5 max-sm:pt-5 max-sm:p-0">
-          <button className='border-b border-black'><Link href='https://www.linkedin.com/in/jayesh-banda-631b85268/' target='_blank'>Linkedin</Link></button>
+          <button className='border-b border-black '><Link href='https://www.linkedin.com/in/jayesh-banda-631b85268/' target='_blank'>Linkedin</Link></button>
           <button className='border-b border-black'><Link href='https://github.com/JayeshBanda' target='_blank'>Github</Link></button>
 
 

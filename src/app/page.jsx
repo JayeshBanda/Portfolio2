@@ -223,7 +223,7 @@
       <>
       <div className="container">
         
-      <div className="page-content w-screen  h-fit min-h-screen flex-col justify-center items-center text-start p-8 ">
+      <div className="page-content w-screen  h-fit min-h-screen flex-col justify-center items-center text-start p-8 max-sm:p-5 ">
         
         <div className="begin flex flex-col h-screen w-full justify-end ">
       <h1 className="welcome text-start  w-fit h-fit" >
@@ -241,7 +241,7 @@
 
       <div className="pt-7 curtain-main pb-20 grid  grid-cols-4">
         <div className=" flex justify-center items-center curtain1 p-2  max:sm:p-0 max-sm:hidden">
-        <Image className=" rounded-xl w-full h-full max-sm:w-full " src={svg} style={{objectFit: "cover", objectPosition:"center"}} ></Image>
+        <Image className=" rounded-xl w-full h-full max-sm:w-full " priority='true' src={svg} style={{objectFit: "cover", objectPosition:"center"}} ></Image>
         </div>
         <div className="curtain0 rounded-xl ">
           <span className=" rounded-lg z-10 p-5 text-justify  flex justify-center items-center w-full  max-sm:w-full max:sm:p-0">Hi, I'm Jay - a passionate web developer & designer who turns ideas into interactive, responsive, and visually stunning websites. With a solid foundation in front-end and back-end development, I specialize in crafting clean, efficient code and seamless user experiences. I believe in combining creativity with technology to build solutions that are both innovative and user-friendly. <br /><br />
@@ -268,9 +268,9 @@
       <div className="line-hero w-full max-sm:full  max-sm:w-full  " ></div>
       <div className="pt-10 development text-justify grid  grid-cols-2 max-sm:grid-cols-none max-sm:grid-rows-2 ">
       <div className="img-stack grid grid-cols-3  curtain2  p-5    max-sm:p-0 max-sm:flex max-sm:h-fit ">
-        <Image priority className="img-1 rounded-xl w-11/12 h-full p-1 max-sm:hidden" src={img4} style={{objectFit: "cover", objectPosition:"left"}}></Image>
-        <Image priority className="img-2 rounded-xl w-11/12 max-sm:w-full h-full p-1" src={img4} style={{objectFit: "cover", objectPosition:"center"}}></Image>
-        <Image priority className="img-3 rounded-xl w-11/12 h-full p-1 max-sm:hidden" src={img4} style={{objectFit: "cover", objectPosition:"right"}}></Image>
+        <Image priority='true' className="img-1 rounded-xl w-11/12 h-full p-1 max-sm:hidden" src={img4} style={{objectFit: "cover", objectPosition:"left"}}></Image>
+        <Image priority='true' className="img-2 rounded-xl w-11/12 max-sm:w-full h-full p-1" src={img4} style={{objectFit: "cover", objectPosition:"center"}}></Image>
+        <Image priority='true' className="img-3 rounded-xl w-11/12 h-full p-1 max-sm:hidden" src={img4} style={{objectFit: "cover", objectPosition:"right"}}></Image>
         </div>
         <div className="gg p-4">
           <span>As a front-end developer, I transform designs into fully functional, responsive websites using modern web technologies. I specialize in frameworks like Next.js to build high-performance, SEO-friendly applications. My code is clean, efficient, and maintainable, with a strong focus on performance optimization and best practices. <br /><br />I am skilled in integrating animations to create engaging, dynamic interfaces, ensuring that websites not only function flawlessly but also deliver an interactive experience. From custom APIs to deploying projects, I ensure every step of development aligns with the vision of the design.</span>
