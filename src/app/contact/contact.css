@@ -1,0 +1,315 @@
+.contact-title{
+    font-size: 9vw;
+    letter-spacing: -0.05em;
+}
+.contact-subtitle{
+    font-size: 2.5vw;
+    letter-spacing: -0.05em;
+
+}
+
+
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* max-width: 350px; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .message {
+    color: #0f1215;
+    font-size: 14px;
+  }
+  
+  .flexy {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border-bottom: 1px solid #0f1215;
+   
+  }
+  
+  
+  
+  .form label {
+    color: rgb(0, 0, 0);
+  }
+  
+  .input01 {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border-bottom: 1px solid #0f1215;
+    
+  }
+  
+  .form label .input01 + span {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input01:placeholder-shown + span {
+    top: 40px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input01:focus + span,.form label .input01:valid + span {
+    top: 50px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input01:valid + span {
+    color: rgb(0, 0, 0);
+  }
+  
+  .fancy {
+    background-color: transparent;
+    border: 2px solid #0f1215;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 390;
+    letter-spacing: 2px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding:  10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+  }
+  
+  .fancy::before {
+    content: " ";
+    width: 1.7rem;
+    height: 2px;
+    background: #0f1215;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform: translateX(230%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+  }
+  
+  .fancy .text {
+    font-size:1.5em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #0f1215;
+    transform: translateX(30%);
+  }
+  
+  .fancy .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: white;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+  }
+  
+  .fancy .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: white;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+  }
+  
+  .fancy .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: white;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+  }
+  
+  .fancy:hover {
+    color: white;
+    background: #0f1215;
+  }
+  
+  .fancy:hover::before {
+    width: 1.5rem;
+    background: white;
+  }
+  
+  .fancy:hover .text {
+    color: white;
+    padding-left: 1.5em;
+  }
+  
+  .fancy:hover .top-key {
+    left: -2px;
+    width: 0px;
+  }
+  
+  .fancy:hover .bottom-key-1,
+   .fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .btn-c {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+    color: #0f1215;
+    background: none;
+    position: relative;
+    padding-bottom: 1.5em;
+    cursor: pointer;
+    border-bottom: #000000 solid 0.5px;
+  }
+  
+  .btn-c > div,
+  .btn-c > svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .btn-c:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    background: currentColor;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .btn-c:hover:before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .btn-c .clone > *,
+  .btn-c .text > * {
+    opacity: 1;
+    font-size:16.55px;
+    transition: 0.2s;
+    margin-left: 4px;
+  }
+  
+  .btn-c .clone > * {
+    transform: translateY(100px);
+  }
+  
+  .btn-c:hover .clone > * {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }
+  
+  .btn-c:hover .text > * {
+    opacity: 1;
+    transform: translateY(-60px);
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  }
+  
+  .btn-c:hover .clone > :nth-child(1) {
+    transition-delay: 0.15s;
+  }
+  
+  .btn-c:hover .clone > :nth-child(2) {
+    transition-delay: 0.2s;
+  }
+  
+  .btn-c:hover .clone > :nth-child(3) {
+    transition-delay: 0.25s;
+  }
+  
+  .btn-c:hover .clone > :nth-child(4) {
+    transition-delay: 0.3s;
+  }
+  /* icon style and hover */
+  .btn-c svg {
+    width: 20px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(-50deg);
+    transition: 0.2s ease-out;
+  }
+  
+  .btn-c:hover svg {
+    transform: translateY(-50%) rotate(-90deg);
+  }
+
+  @media (max-width: 640px) {
+  .form{
+    grid-row: 1;
+    padding: 0;
+  }
+  .contact-title{
+    font-size: 15vw;
+    text-align: start;
+    line-height: 1em;
+    padding-bottom: 20px;
+    font-weight: 500;
+  }
+  .contact-subtitle{
+    font-size: 8vw;
+    text-align: start;
+    /* line-height: 1.2em; */
+
+
+  }
+}
+

@@ -1,0 +1,36 @@
+.preloader{
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    color: #ffffff;
+}
+.preloader h2{
+
+    filter: invert(100%);
+    font-size: 2vw;
+    z-index: 1000;
+}
+.preloader img{
+    z-index: 1000;
+    border-radius: 25%;
+    transform: scale(0);
+    
+
+}
+.loader{
+    background-color: #ffffff;
+    z-index: 998;
+}
+.loader1{
+    background-color: #ffffff;
+    z-index: 997;
+}
+
+@media (max-width:550px) {
+    .preloader img{
+        width: 200px;
+    }
+    
+}

@@ -1,0 +1,234 @@
+/* .menu-bar ,.menu-overlay,.menu-overlay-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+}
+.menu-bar a,.menu-open p{
+    color: #fff;
+    cursor: pointer;
+}
+.menu-close p{
+    color: #0f1215;
+    cursor: pointer;
+}
+
+.menu-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 2em;
+    background-color: #c5fb45;
+    z-index: 2;
+    display: flex;
+    clip-path: polygon(0 0 ,100% 0, 100% 100%, 0% 100%);
+
+}
+
+.menu-close-icon{
+    flex: 2;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.menu-copy{
+    flex: 4;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.menu-preview{
+    flex: 4;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    padding-top: 2em;
+}
+.menu-close-icon p{
+    font-size: 100px;
+    -webkit-text-stroke: 3px #c5fb45;
+    line-height: 70%;
+}
+
+.menu-link-item{
+    width: max-content;
+    clip-path: polygon(0 0 ,100% 0, 100% 100%, 0% 100%);
+}
+.menu-link-item-holder{
+  position: relative;
+}
+.menu-link-item-holder a{
+  color: #0f1215;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 85%;
+}
+.menu-info{
+  display: flex;
+}
+
+.menu-info-col{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+} */
+
+.menu-bar,
+.menu-overlay,
+.menu-overlay-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 2em;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  /* mix-blend-mode: screen; */
+  /* font-family: "MuseoModerno", sans-serif; */
+
+}.menu-bar{
+  opacity: 0;
+}
+
+.menu-bar a,
+.menu-open p {
+    color: #0AE448;
+  color: #ffffff;
+  /* text-shadow: 0px 0px 1.8px rgb(0, 0, 0); */
+  -webkit-text-stroke-color: #0f1215;
+  -webkit-text-stroke-width: 1px;
+  /* color:#76B041; */
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 100;  
+  /* padding: 5px; */
+  /* border-radius: 5%; */
+  /* border: #ffffff 1px solid; */
+  
+}
+
+.menu-overlay-bar a,
+.menu-info-col a,
+.menu-close p {
+  color: #0f1215;
+  cursor: pointer;
+  font-weight: 600;
+  -webkit-text-stroke: #0f1215;
+  -webkit-text-stroke-width: 1px;
+  width: fit-content;
+  font-size: 25px;
+
+
+
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 2em;
+  background: #ffffff;
+  z-index: 2;
+  display: flex;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+}
+
+.menu-close-icon {
+  flex: 2;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.menu-copy {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 2em;
+}
+
+.menu-close-icon p {
+  font-size: 100px;
+  -webkit-text-stroke: 3px #ffffff;
+  line-height: 70%;
+}
+
+.menu-link-item {
+  width: max-content;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.menu-link-item-holder {
+  position: relative;
+}
+
+.menu-link-item-holder a {
+  color: #0f1215;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 85%;
+}
+
+.menu-info {
+  display: flex;
+}
+
+.menu-info-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+
+@media (max-width: 900px) {
+  .menu-close-icon {
+    display: none;
+  }
+  .menu-copy {
+    padding-top: 8em;
+  }
+  .menu-link-item-holder a {
+    font-size: 60px;
+  }
+  
+}
+
+@media (max-width: 650px) {
+  .menu-bar{
+    /* background-color: #0f1215; */
+    padding: 1em;
+  }
+  .menu-overlay-bar{
+    padding: 1em;
+  }
+  .menu-overlay{
+    padding: 1em;
+  }
+  .menu-open p , .menu-bar a ,.menu-close p{
+    font-size: 15px;
+  }
+  .menu-info a , .menu-info p{
+    font-size: 3.5vw;
+    margin: 5px;
+  }
+  .menu-links a{
+    font-size: 10vw;
+  }
+}
