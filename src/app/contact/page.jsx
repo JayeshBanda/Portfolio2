@@ -271,7 +271,7 @@ const Contact = () => {
               />
             </label>
 
-            <button className="fancy" type="submit">
+            <button className="fancy w-full" type="submit">
               <span className="top-key"></span>
               <span className="text">Submit</span>
               <span className="bottom-key-1"></span>
