@@ -6,7 +6,7 @@ import { MuseoModerno } from "next/font/google";
 import localFont from 'next/font/local'
 // const inter = Inter({ subsets: ["latin"] });
 const myFont = localFont({
-  src: '../../public/fonts/fonts/Satoshi-Medium.woff2',
+  src: '../../public/fonts/Satoshi-Medium.woff2',
   display: 'swap',
   // weight: ["400", "500", "600", "700", "800", "900"],
 
