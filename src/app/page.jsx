@@ -226,11 +226,11 @@
       <div className="page-content w-screen  h-fit min-h-screen flex-col justify-center items-center text-start p-8 ">
         
         <div className="begin flex flex-col h-screen w-full justify-end ">
-      <h1 className="welcome  w-fit h-fit" >
+      <h1 className="welcome text-start  w-fit h-fit" >
       High-end <span className="design">Designs</span>,<br /> <span className="design">Smart</span> development
       </h1>
       <div className="line-hero w-full max-sm:full  max-sm:w-full  " ></div>
-      <span className="role w-fit h-fit rounded-xl" >My Name is <b className="glow">Jayesh Banda</b> I design beautifully simple things, Let's bring your ideas to reality!...</span>
+      <span className="role text-start w-fit h-fit rounded-xl" >My Name is <b className="glow">Jayesh Banda</b> I design beautifully simple things, Let's bring your ideas to reality!...</span>
       </div>
 
       <div className="page-content2 flex justify-start items-center flex-col w-full h-fit mt-10 " >
@@ -240,8 +240,8 @@
       <div className="line-hero w-full max-sm:full  max-sm:w-full  " ></div>
 
       <div className="pt-7 curtain-main pb-20 grid  grid-cols-4">
-        <div className=" flex justify-center items-center curtain1 p-2  max:sm:p-0">
-        <Image className=" rounded-xl w-full h-full max-sm:w-full" src={svg} style={{objectFit: "cover", objectPosition:"center"}} ></Image>
+        <div className=" flex justify-center items-center curtain1 p-2  max:sm:p-0 max-sm:hidden">
+        <Image className=" rounded-xl w-full h-full max-sm:w-full " src={svg} style={{objectFit: "cover", objectPosition:"center"}} ></Image>
         </div>
         <div className="curtain0 rounded-xl ">
           <span className=" rounded-lg z-10 p-5 text-justify  flex justify-center items-center w-full  max-sm:w-full max:sm:p-0">Hi, I'm Jay - a passionate web developer & designer who turns ideas into interactive, responsive, and visually stunning websites. With a solid foundation in front-end and back-end development, I specialize in crafting clean, efficient code and seamless user experiences. I believe in combining creativity with technology to build solutions that are both innovative and user-friendly. <br /><br />
@@ -266,7 +266,7 @@
       Development
       </h1>
       <div className="line-hero w-full max-sm:full  max-sm:w-full  " ></div>
-      <div className="pt-10 development text-justify grid grid-flow-col grid-cols-2  ">
+      <div className="pt-10 development text-justify grid  grid-cols-2 max-sm:grid-cols-none max-sm:grid-rows-2 ">
       <div className="img-stack grid grid-cols-3  curtain2  p-5    max-sm:p-0 max-sm:flex max-sm:h-fit ">
         <Image priority className="img-1 rounded-xl w-11/12 h-full p-1 max-sm:hidden" src={img4} style={{objectFit: "cover", objectPosition:"left"}}></Image>
         <Image priority className="img-2 rounded-xl w-11/12 max-sm:w-full h-full p-1" src={img4} style={{objectFit: "cover", objectPosition:"center"}}></Image>

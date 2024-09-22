@@ -286,6 +286,13 @@ h1{
   }
 }
 
+@media (max-width:1024px){ 
+  .begin{
+    justify-content: center;
+  }
+  
+}
+
 
 @media (max-width:950px) {
   .begin{
@@ -346,12 +353,16 @@ h1{
     width: 100%;
     object-position: center;
   }
+  .curtain2{
+    /* grid-column: auto; */
+    grid-row:1 / span 2; 
+  }
   .curtain0 {
     grid-column: auto;
     grid-row:3 /span 1;
   }
   .curtain0 span,.page-content1 span{
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
  .development{
     grid-template-rows: auto auto;
@@ -359,7 +370,7 @@ h1{
     grid-auto-rows: auto;
  }
   .gg span{
-    font-size: 3vw;
+    font-size: 3.4vw;
     padding: 1em;
     letter-spacing: 0;
     line-height: 1em;
