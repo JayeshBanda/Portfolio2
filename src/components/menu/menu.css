@@ -231,4 +231,7 @@
   .menu-links a{
     font-size: 10vw;
   }
+  .menu-info-col p{
+    font-size: 3.5vw;
+  }
 }
