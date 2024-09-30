@@ -204,7 +204,7 @@ const projects = () => {
                 ></Image>
               </div>
               <div className="griditem-small p-5">
-                <span>It is a website designed for a chartered accountant business, Giving the clients briefing about the business and its acheivements. It was built with Nextjs and various oother modern technologies </span>
+                <span>It is a website designed for a chartered accountant business, Giving the clients briefing about the business and its acheivements. It was built with Nextjs and various other modern technologies </span>
 
                 <div className='pt-5'>
                 <Link href={'https://github.com/JayeshBanda'} target='_blank'>
