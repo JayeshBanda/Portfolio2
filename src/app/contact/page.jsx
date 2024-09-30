@@ -202,8 +202,8 @@ const Contact = () => {
               </span>
             </div>
             <div className="links flex flex-col text-start h-full w-full  items-start p-5 max-sm:pt-5 max-sm:p-0">
-          <button className='w-fit'><Link href='https://www.linkedin.com/in/jayesh-banda-631b85268/' target='_blank'>Linkedin</Link></button>
-          <button className='w-fit'><Link href='https://github.com/JayeshBanda' target='_blank'>Github</Link></button>
+          <button className='w-fit h-fit '><Link href='https://www.linkedin.com/in/jayesh-banda-631b85268/' target='_blank'>Linkedin</Link></button>
+          <button className='w-fit h-fit '><Link href='https://github.com/JayeshBanda' target='_blank'>Github</Link></button>
 
 
             </div>
